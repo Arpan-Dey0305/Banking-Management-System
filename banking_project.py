@@ -1,9 +1,9 @@
 import mysql.connector as c
-con = c.connect(host = "localhost", user = "root", passwd = "Arpan@2003#1984", database = "project")
+con = c.connect(host = "localhost", user = "root", passwd = "PASSWORD", database = "D_NAME")
 
 cursor = con.cursor()
 print("*" * 65)
-print(" " * 25, end = 'Bank management system')
+print(" " * 25, end = 'Bank Management System')
 print("*"*65)
 accno = 100
 while True:
