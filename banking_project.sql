@@ -2,7 +2,7 @@
 CREATE DATABASE IF NOT EXISTS DB_NAME;
 
 --Use th database
-USE project;
+USE DB_NAME;
 
 -- 2. Create the BANK table
 CREATE TABLE IF NOT EXISTS TABLE_NAME (
